@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand colors — топла географска палета -->
+    <color name="brand_primary">#0A4D68</color>
+    <color name="brand_primary_dark">#053A50</color>
+    <color name="brand_primary_light">#3D7A9C</color>
+    <color name="brand_primary_bg">#E1EEF5</color>
+    <color name="brand_accent">#FF7E5F</color>
+    <color name="brand_accent_dark">#FF6347</color>
+
+    <!-- Backgrounds -->
+    <color name="bg_surface">#FAFAFA</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_card_alt">#F4F6F8</color>
+    <color name="bg_input">#F0F2F5</color>
+    <color name="bg_elevated">#FFFFFF</color>
+
+    <!-- Текст -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_tertiary">#9CA3AF</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Статуси -->
+    <color name="status_visited">#2D6A4F</color>
+    <color name="status_visited_bg">#D8F3DC</color>
+    <color name="status_wishlist">#E76F51</color>
+    <color name="status_wishlist_bg">#FFE8DC</color>
+
+    <!-- Маp бои -->
+    <color name="map_visited">#2D6A4F</color>
+    <color name="map_wishlist">#F4A261</color>
+    <color name="map_default">#3D7A9C</color>
+    <color name="map_ocean">#A8D5E8</color>
+
+    <!-- Дивидери и сенки -->
+    <color name="divider">#E5E7EB</color>
+    <color name="border">#E5E7EB</color>
+    <color name="shadow">#10000000</color>
+</resources>

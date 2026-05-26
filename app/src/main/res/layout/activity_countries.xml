@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_surface">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header_curved"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/transparent"
+            app:title="@string/countries_title"
+            app:titleTextAppearance="@style/TextAppearance.Stamped.Title"
+            app:titleTextColor="@color/white"/>
+    </FrameLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="-24dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@color/bg_card">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search_countries"
+            app:boxBackgroundMode="none"
+            app:startIconDrawable="@android:drawable/ic_menu_search"
+            app:startIconTint="@color/brand_primary">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_tertiary"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroupFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="12dp"
+        app:singleSelection="true"
+        app:selectionRequired="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_all"
+            android:checked="true"
+            android:textStyle="bold"
+            app:chipBackgroundColor="@color/bg_card"
+            app:chipStrokeColor="@color/divider"
+            app:chipStrokeWidth="1dp"
+            app:chipCornerRadius="14dp"
+            style="@style/Widget.Material3.Chip.Filter"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipVisited"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_visited"
+            android:textStyle="bold"
+            app:chipBackgroundColor="@color/bg_card"
+            app:chipStrokeColor="@color/divider"
+            app:chipStrokeWidth="1dp"
+            app:chipCornerRadius="14dp"
+            style="@style/Widget.Material3.Chip.Filter"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipBucket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_bucket"
+            android:textStyle="bold"
+            app:chipBackgroundColor="@color/bg_card"
+            app:chipStrokeColor="@color/divider"
+            app:chipStrokeWidth="1dp"
+            app:chipCornerRadius="14dp"
+            style="@style/Widget.Material3.Chip.Filter"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipCities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_cities"
+            android:textStyle="bold"
+            app:chipBackgroundColor="@color/bg_card"
+            app:chipStrokeColor="@color/divider"
+            app:chipStrokeWidth="1dp"
+            app:chipCornerRadius="14dp"
+            style="@style/Widget.Material3.Chip.Filter"/>
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCountries"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="12dp"
+        android:clipToPadding="false"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/menu_bottom_nav"/>
+
+</LinearLayout>

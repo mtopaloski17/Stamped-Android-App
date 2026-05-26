@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:been.app)",
+      "WebFetch(domain:trvltrend.com)",
+      "WebFetch(domain:www.apppicker.com)",
+      "WebFetch(domain:www.polimetro.com)",
+      "WebFetch(domain:been.travel)",
+      "WebFetch(domain:apps.apple.com)"
+    ]
+  }
+}

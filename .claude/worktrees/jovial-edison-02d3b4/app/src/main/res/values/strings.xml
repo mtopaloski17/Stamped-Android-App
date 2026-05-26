@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Stamped</string>
+    <string name="login_subtitle">Track your world adventures</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login_email">Login</string>
+    <string name="btn_register">Create account</string>
+    <string name="or_continue_with">or continue with</string>
+    <string name="btn_login_google">Continue with Google</string>
+    <string name="btn_login_anonymous">Continue without account</string>
+    <string name="error_empty_fields">Please fill in all fields</string>
+    <string name="error_login_failed">Login failed. Please try again</string>
+
+    <string name="default_web_client_id">228478460369-8ofe00jfcngrfr51rsdbcm4cu84ei11m.apps.googleusercontent.com</string>
+
+    <string name="visited_0">🌍 0 countries visited</string>
+    <string name="percent_0">0% of the world</string>
+    <string name="logout">Logout</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_countries">Countries</string>
+    <string name="nav_profile">Profile</string>
+    <string name="visited_countries">%d countries visited</string>
+    <string name="world_percentage">%.1f%% of the world</string>
+
+    <!-- posledni main mani -->
+    <string name="profile_title">My Profile</string>
+    <string name="profile_traveler">Traveler</string>
+    <string name="stats_visited">Countries visited</string>
+    <string name="stats_percentage">% of world</string>
+    <string name="stats_continents">Continents</string>
+    <string name="continents_title">Progress by continent</string>
+    <string name="language_title">Language</string>
+    <string name="language_mk">Macedonian</string>
+    <string name="language_en">English</string>
+    <string name="btn_logout">Logout</string>
+    <string name="anonymous_user">Anonymous user</string>
+
+</resources>

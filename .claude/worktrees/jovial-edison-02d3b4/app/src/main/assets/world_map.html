@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #1a1a2e; overflow: hidden; }
+        svg { width: 100vw; height: 100vh; }
+        .country {
+          fill: #2d5a8e;
+          stroke: #4a90d9;
+          stroke-width: 0.5;
+          cursor: pointer;
+          transition: fill 0.3s;
+        }
+        .country:hover { fill: #4a90d9; }
+        .country.visited { fill: #34A853; }
+        .country.visited:hover { fill: #2d8a44; }
+        #tooltip {
+          position: fixed;
+          background: rgba(0,0,0,0.8);
+          color: white;
+          padding: 6px 12px;
+          border-radius: 6px;
+          font-size: 14px;
+          pointer-events: none;
+          display: none;
+          font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div id="tooltip"></div>
+
+<!-- Поедноставена SVG карта -->
+<svg viewBox="0 0 2000 1000" id="worldMap">
+    <!-- Секоја земја има data-code (ISO код) и data-name -->
+    <path class="country" data-code="MK" data-name="North Macedonia"
+          d="M1050 380 L1060 375 L1065 385 L1055 390 Z"/>
+    <path class="country" data-code="DE" data-name="Germany"
+          d="M1020 330 L1040 325 L1045 345 L1025 350 Z"/>
+    <path class="country" data-code="FR" data-name="France"
+          d="M990 345 L1015 340 L1018 362 L993 365 Z"/>
+    <path class="country" data-code="US" data-name="United States"
+          d="M300 320 L550 315 L555 400 L305 405 Z"/>
+    <path class="country" data-code="BR" data-name="Brazil"
+          d="M500 500 L650 495 L655 620 L505 625 Z"/>
+    <path class="country" data-code="AU" data-name="Australia"
+          d="M1550 550 L1750 545 L1755 680 L1555 685 Z"/>
+    <path class="country" data-code="CN" data-name="China"
+          d="M1300 320 L1500 315 L1505 430 L1305 435 Z"/>
+    <path class="country" data-code="RU" data-name="Russia"
+          d="M1050 200 L1700 195 L1705 310 L1055 315 Z"/>
+    <path class="country" data-code="JP" data-name="Japan"
+          d="M1680 330 L1710 325 L1715 370 L1685 375 Z"/>
+    <path class="country" data-code="GB" data-name="United Kingdom"
+          d="M960 295 L980 290 L983 320 L963 323 Z"/>
+</svg>
+
+<script>
+    var visitedCountries = [];
+    var tooltip = document.getElementById('tooltip');
+
+    // Кликање на земја
+    document.querySelectorAll('.country').forEach(function(el) {
+      el.addEventListener('click', function() {
+        var code = this.dataset.code;
+        var name = this.dataset.name;
+        if (this.classList.contains('visited')) {
+          this.classList.remove('visited');
+          visitedCountries = visitedCountries.filter(function(c) { return c !== code; });
+        } else {
+          this.classList.add('visited');
+          visitedCountries.push(code);
+        }
+        // Испрати до Android
+        Android.onCountryClicked(code, name, this.classList.contains('visited'));
+      });
+
+      // Tooltip при hover
+      el.addEventListener('mousemove', function(e) {
+        tooltip.style.display = 'block';
+        tooltip.style.left = (e.clientX + 10) + 'px';
+        tooltip.style.top = (e.clientY - 30) + 'px';
+        tooltip.textContent = this.dataset.name;
+      });
+      el.addEventListener('mouseleave', function() {
+        tooltip.style.display = 'none';
+      });
+    });
+
+    // Функција за означување земји од Android
+    function markCountry(code, visited) {
+      var el = document.querySelector('[data-code="' + code + '""]');
+      if (el) {
+        if (visited) el.classList.add('visited');
+        else el.classList.remove('visited');
+      }
+    }
+</script>
+</body>
+</html>

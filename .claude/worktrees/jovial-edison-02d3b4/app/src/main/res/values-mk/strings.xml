@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stamped</string>
+    <string name="login_subtitle">Следи ги своите светски авантури</string>
+    <string name="hint_email">Е-пошта</string>
+    <string name="hint_password">Лозинка</string>
+    <string name="btn_login_email">Најави се</string>
+    <string name="btn_register">Создај сметка</string>
+    <string name="or_continue_with">или продолжи со</string>
+    <string name="btn_login_google">Продолжи со Google</string>
+    <string name="btn_login_anonymous">Продолжи без сметка</string>
+    <string name="error_empty_fields">Ве молам пополнете ги сите полиња</string>
+    <string name="error_login_failed">Најавувањето не успеа. Обидете се повторно</string>
+    <string name="visited_0">🌍 0 посетени земји</string>
+    <string name="percent_0">0% од светот</string>
+    <string name="logout">Одјави се</string>
+    <string name="nav_map">Карта</string>
+    <string name="nav_countries">Земји</string>
+    <string name="nav_profile">Профил</string>
+    <string name="visited_countries">%d посетени земји</string>
+    <string name="world_percentage">%.1f%% од светот</string>
+    <string name="profile_title">Мој профил</string>
+    <string name="profile_traveler">Патник</string>
+    <string name="stats_visited">Посетени земји</string>
+    <string name="stats_percentage">% од светот</string>
+    <string name="stats_continents">Континенти</string>
+    <string name="continents_title">Напредок по континент</string>
+    <string name="language_title">Јазик</string>
+    <string name="language_mk">Македонски</string>
+    <string name="language_en">Англиски</string>
+    <string name="btn_logout">Одјави се</string>
+    <string name="anonymous_user">Анонимен корисник</string>
+</resources>

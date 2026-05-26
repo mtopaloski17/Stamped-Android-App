@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Stamped</string>
+    <string name="login_subtitle">Track your world adventures</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login_email">Login</string>
+    <string name="btn_register">Create account</string>
+    <string name="or_continue_with">or continue with</string>
+    <string name="btn_login_google">Continue with Google</string>
+    <string name="btn_login_anonymous">Continue without account</string>
+    <string name="error_empty_fields">Please fill in all fields</string>
+    <string name="error_login_failed">Login failed. Please try again</string>
+    <string name="error_invalid_credentials">Email or password is incorrect</string>
+
+    <string name="default_web_client_id">228478460369-8ofe00jfcngrfr51rsdbcm4cu84ei11m.apps.googleusercontent.com</string>
+
+    <string name="visited_0">🌍 0 countries visited</string>
+    <string name="percent_0">0% of the world</string>
+    <string name="logout">Logout</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_countries">Countries</string>
+    <string name="nav_profile">Profile</string>
+    <string name="visited_countries">%d countries visited</string>
+    <string name="world_percentage">%.1f%% of the world</string>
+
+    <!-- posledni main mani -->
+    <string name="profile_title">My Profile</string>
+    <string name="profile_traveler">Traveler</string>
+    <string name="stats_visited">Countries visited</string>
+    <string name="stats_percentage">% of world</string>
+    <string name="stats_continents">Continents</string>
+    <string name="continents_title">Progress by continent</string>
+    <string name="language_title">Language</string>
+    <string name="language_mk">Macedonian</string>
+    <string name="language_en">English</string>
+    <string name="btn_logout">Logout</string>
+    <string name="anonymous_user">Anonymous user</string>
+    <string name="anonymous_local_notice">📱 Your data is stored only on this device. It will be preserved between anonymous sessions but lost if you uninstall the app.</string>
+    <string name="search_countries">Search countries…</string>
+    <string name="countries_title">Countries</string>
+    <string name="country_added">✅ %s added to visited countries!</string>
+    <string name="country_removed">❌ %s removed from your list</string>
+
+    <!-- Filter tabs -->
+    <string name="filter_all">All</string>
+    <string name="filter_visited">Visited</string>
+    <string name="filter_bucket">Wishlist</string>
+    <string name="filter_cities">Cities</string>
+    <string name="cities_empty_filter">No cities yet. Add cities from a country\'s detail page.</string>
+
+    <!-- Country detail -->
+    <string name="mark_visited">Mark as visited</string>
+    <string name="add_to_bucket">Add to wishlist</string>
+    <string name="notes_hint">Add your notes, memories or plans…</string>
+    <string name="save_notes">Save notes</string>
+    <string name="notes_saved">Notes saved</string>
+    <string name="visited_on">Visited on %s</string>
+    <string name="added_to_bucket">Added to wishlist on %s</string>
+    <string name="bucket_added">⭐ %s added to wishlist</string>
+    <string name="bucket_removed">%s removed from wishlist</string>
+
+    <!-- Achievements -->
+    <string name="achievements_title">Achievements</string>
+    <string name="achievements_progress">%1$d / %2$d unlocked</string>
+    <string name="continent_progress">Continent progress</string>
+
+    <!-- Theme -->
+    <string name="theme_title">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_start">Get started</string>
+    <string name="onb_title_1">Welcome to Stamped</string>
+    <string name="onb_desc_1">Track every country you\'ve visited on a beautiful interactive map.</string>
+    <string name="onb_title_2">Plan future trips</string>
+    <string name="onb_desc_2">Add countries to your wishlist and keep personal notes for each place.</string>
+    <string name="onb_title_3">Earn achievements</string>
+    <string name="onb_desc_3">Unlock badges as you explore continents and reach milestones.</string>
+
+    <!-- Photos -->
+    <string name="memories">Memories</string>
+    <string name="add_photo">Add photo</string>
+    <string name="delete_photo">Delete photo</string>
+    <string name="delete_photo_confirm">Delete this photo?</string>
+    <string name="confirm_delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Daily travel tips</string>
+    <string name="notif_channel_desc">A daily travel quote or fact</string>
+    <string name="notif_title">Stamped • Travel tip</string>
+    <string name="notifications_title">Daily travel tips</string>
+    <string name="notifications_desc">Get a travel quote every day</string>
+    <string name="notif_send_test">Send test notification</string>
+    <string name="notif_sent">Test notification sent ✓</string>
+    <string name="notif_permission_needed">Notification permission is required</string>
+
+    <!-- Country info -->
+    <string name="country_info">Country info</string>
+    <string name="info_loading">Loading info…</string>
+    <string name="info_unavailable">Info unavailable</string>
+    <string name="info_capital">Capital</string>
+    <string name="info_population">Population</string>
+    <string name="info_currency">Currency</string>
+    <string name="info_languages">Languages</string>
+    <string name="info_region">Region</string>
+    <string name="info_area">Area</string>
+    <string name="info_area_value">%s km²</string>
+    <string name="info_timezone">Timezones</string>
+    <string name="info_neighbors">Neighbors</string>
+
+    <!-- Profile customization -->
+    <string name="title_beginner">Beginner</string>
+    <string name="edit_name_title">Edit your name</string>
+    <string name="edit_name_hint">Your name</string>
+    <string name="save">Save</string>
+    <string name="choose_title">Choose your title</string>
+    <string name="title_locked_hint">Unlock achievements to choose a title</string>
+
+    <!-- Cities -->
+    <string name="cities_section">Cities visited</string>
+    <string name="add_city">Add city</string>
+    <string name="city_name_hint">City name</string>
+    <string name="add_city_to">Add city to %s</string>
+    <string name="capital_suggestion">Capital: %s</string>
+    <string name="date_visited">Date visited</string>
+    <string name="delete_city">Delete city</string>
+    <string name="delete_city_confirm">Remove %s from your cities?</string>
+    <string name="city_added">⭐ %s added</string>
+    <string name="city_removed">%s removed</string>
+    <string name="no_cities_yet">No cities yet. Tap "Add city" to start.</string>
+    <string name="stats_cities">Cities</string>
+    <string name="cities_loading">Loading cities…</string>
+    <string name="cities_none_found">No cities found. Type the name manually.</string>
+    <string name="cities_load_error">Could not load city list. You can still type a city manually.</string>
+    <string name="of_the_world">of the world</string>
+    <string name="cities_need_visited">Mark this country as visited to add cities</string>
+
+    <!-- Registration -->
+    <string name="register_title">Create account</string>
+    <string name="register_subtitle">Join Stamped and start tracking your travels</string>
+    <string name="register_hint_name">Display name</string>
+    <string name="register_hint_confirm_password">Confirm password</string>
+    <string name="register_btn_submit">Create account</string>
+    <string name="register_error_passwords_mismatch">Passwords do not match</string>
+    <string name="register_error_password_short">Password must be at least 6 characters</string>
+    <string name="register_error_name_empty">Please enter your name</string>
+    <string name="register_success">Account created!</string>
+    <string name="back_to_login">Back to login</string>
+</resources>

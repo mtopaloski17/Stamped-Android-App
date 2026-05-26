@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stamped</string>
+    <string name="login_subtitle">Следи ги своите светски авантури</string>
+    <string name="hint_email">Е-пошта</string>
+    <string name="hint_password">Лозинка</string>
+    <string name="btn_login_email">Најави се</string>
+    <string name="btn_register">Создај сметка</string>
+    <string name="or_continue_with">или продолжи со</string>
+    <string name="btn_login_google">Продолжи со Google</string>
+    <string name="btn_login_anonymous">Продолжи без сметка</string>
+    <string name="error_empty_fields">Ве молам пополнете ги сите полиња</string>
+    <string name="error_login_failed">Најавувањето не успеа. Обидете се повторно</string>
+    <string name="error_invalid_credentials">Е-маилот или лозинката се погрешни</string>
+    <string name="visited_0">🌍 0 посетени земји</string>
+    <string name="percent_0">0% од светот</string>
+    <string name="logout">Одјави се</string>
+    <string name="nav_map">Карта</string>
+    <string name="nav_countries">Земји</string>
+    <string name="nav_profile">Профил</string>
+    <string name="visited_countries">%d посетени земји</string>
+    <string name="world_percentage">%.1f%% од светот</string>
+    <string name="profile_title">Мој профил</string>
+    <string name="profile_traveler">Патник</string>
+    <string name="stats_visited">Посетени земји</string>
+    <string name="stats_percentage">% од светот</string>
+    <string name="stats_continents">Континенти</string>
+    <string name="continents_title">Напредок по континент</string>
+    <string name="language_title">Јазик</string>
+    <string name="language_mk">Македонски</string>
+    <string name="language_en">Англиски</string>
+    <string name="btn_logout">Одјави се</string>
+    <string name="anonymous_user">Анонимен корисник</string>
+    <string name="anonymous_local_notice">📱 Твоите податоци се чуваат само на овој уред. Се запазуваат меѓу анонимни сесии, но ќе бидат изгубени при деинсталирање на апликацијата.</string>
+    <string name="search_countries">Пребарај земји…</string>
+    <string name="countries_title">Земји</string>
+    <string name="country_added">✅ %s е додадена во посетените!</string>
+    <string name="country_removed">❌ %s е отстранета од листата</string>
+    <string name="default_web_client_id">228478460369-8ofe00jfcngrfr51rsdbcm4cu84ei11m.apps.googleusercontent.com</string>
+
+    <!-- Filter tabs -->
+    <string name="filter_all">Сите</string>
+    <string name="filter_visited">Посетени</string>
+    <string name="filter_bucket">Листа на желби</string>
+    <string name="filter_cities">Градови</string>
+    <string name="cities_empty_filter">Нема внесени градови. Додај од детал екранот на земја.</string>
+
+    <!-- Country detail -->
+    <string name="mark_visited">Означи како посетена</string>
+    <string name="add_to_bucket">Додај во листа на желби</string>
+    <string name="notes_hint">Додај белешки, спомени или планови…</string>
+    <string name="save_notes">Зачувај белешки</string>
+    <string name="notes_saved">Белешките се зачувани</string>
+    <string name="visited_on">Посетена на %s</string>
+    <string name="added_to_bucket">Додадена во листа на желби на %s</string>
+    <string name="bucket_added">⭐ %s додадена во листа на желби</string>
+    <string name="bucket_removed">%s отстранета од листа на желби</string>
+
+    <!-- Achievements -->
+    <string name="achievements_title">Достигнувања</string>
+    <string name="achievements_progress">%1$d / %2$d отклучени</string>
+    <string name="continent_progress">Напредок по континент</string>
+
+    <!-- Theme -->
+    <string name="theme_title">Тема</string>
+    <string name="theme_system">Системска</string>
+    <string name="theme_light">Светла</string>
+    <string name="theme_dark">Темна</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_skip">Прескокни</string>
+    <string name="onboarding_next">Следно</string>
+    <string name="onboarding_start">Започни</string>
+    <string name="onb_title_1">Добредојде во Stamped</string>
+    <string name="onb_desc_1">Следи ги сите земји кои си ги посетил на интерактивна мапа.</string>
+    <string name="onb_title_2">Планирај идни патувања</string>
+    <string name="onb_desc_2">Додај земји во листата на желби и зачувај лични белешки.</string>
+    <string name="onb_title_3">Освои достигнувања</string>
+    <string name="onb_desc_3">Отклучи беџови додека истражуваш континенти и достигнуваш цели.</string>
+
+    <!-- Photos -->
+    <string name="memories">Спомени</string>
+    <string name="add_photo">Додај слика</string>
+    <string name="delete_photo">Избриши слика</string>
+    <string name="delete_photo_confirm">Да ја избришеме оваа слика?</string>
+    <string name="confirm_delete">Избриши</string>
+    <string name="cancel">Откажи</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Дневни патни совети</string>
+    <string name="notif_channel_desc">Дневен патен цитат или факт</string>
+    <string name="notif_title">Stamped • Патен совет</string>
+    <string name="notifications_title">Дневни патни совети</string>
+    <string name="notifications_desc">Прими патен цитат секој ден</string>
+    <string name="notif_send_test">Испрати тест известување</string>
+    <string name="notif_sent">Тест известувањето е испратено ✓</string>
+    <string name="notif_permission_needed">Потребна е дозвола за известувања</string>
+
+    <!-- Country info -->
+    <string name="country_info">Информации за земјата</string>
+    <string name="info_loading">Се вчитуваат информации…</string>
+    <string name="info_unavailable">Информациите не се достапни</string>
+    <string name="info_capital">Главен град</string>
+    <string name="info_population">Население</string>
+    <string name="info_currency">Валута</string>
+    <string name="info_languages">Јазици</string>
+    <string name="info_region">Регион</string>
+    <string name="info_area">Површина</string>
+    <string name="info_area_value">%s km²</string>
+    <string name="info_timezone">Временски зони</string>
+    <string name="info_neighbors">Соседи</string>
+
+    <!-- Profile customization -->
+    <string name="title_beginner">Почетник</string>
+    <string name="edit_name_title">Промени име</string>
+    <string name="edit_name_hint">Твое име</string>
+    <string name="save">Зачувај</string>
+    <string name="choose_title">Избери титула</string>
+    <string name="title_locked_hint">Отклучи достигнувања за да избереш титула</string>
+
+    <!-- Cities -->
+    <string name="cities_section">Посетени градови</string>
+    <string name="add_city">Додај град</string>
+    <string name="city_name_hint">Име на град</string>
+    <string name="add_city_to">Додај град во %s</string>
+    <string name="capital_suggestion">Главен град: %s</string>
+    <string name="date_visited">Датум на посета</string>
+    <string name="delete_city">Избриши град</string>
+    <string name="delete_city_confirm">Да го отстраниме %s од твојата листа?</string>
+    <string name="city_added">⭐ %s е додаден</string>
+    <string name="city_removed">%s е отстранет</string>
+    <string name="no_cities_yet">Сè уште нема градови. Додај со копчето „Додај град".</string>
+    <string name="stats_cities">Градови</string>
+    <string name="cities_loading">Вчитување градови…</string>
+    <string name="cities_none_found">Не се најдени градови. Внеси име рачно.</string>
+    <string name="cities_load_error">Не успеа вчитувањето. Можеш да внесеш град рачно.</string>
+    <string name="of_the_world">од светот</string>
+    <string name="cities_need_visited">Прво означи ја земјата како посетена за да додаваш градови</string>
+
+    <!-- Registration -->
+    <string name="register_title">Креирај акаунт</string>
+    <string name="register_subtitle">Приклучи се на Stamped и почни да ги следиш патувањата</string>
+    <string name="register_hint_name">Прикажано име</string>
+    <string name="register_hint_confirm_password">Потврди лозинка</string>
+    <string name="register_btn_submit">Креирај акаунт</string>
+    <string name="register_error_passwords_mismatch">Лозинките не се исти</string>
+    <string name="register_error_password_short">Лозинката мора да има барем 6 знаци</string>
+    <string name="register_error_name_empty">Внеси го твоето име</string>
+    <string name="register_success">Акаунтот е креиран!</string>
+    <string name="back_to_login">Назад на најава</string>
+</resources>
